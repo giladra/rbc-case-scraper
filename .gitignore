@@ -1,0 +1,5 @@
+node_modules/
+fixtures-private/
+dist/
+.playwright-mcp/
+dist-ext-test/

@@ -1,0 +1,31 @@
+{
+  "name": "rbc-case-scraper",
+  "version": "1.0.0",
+  "description": "Chrome extension: bulk-download, classify and rename documents of your own cases from the Israeli Rabbinical Courts site. Local only, offline Hebrew OCR.",
+  "scripts": {
+    "test": "vitest run",
+    "build": "node build.mjs"
+  },
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@tesseract.js-data/heb": "^1.0.0",
+    "fflate": "^0.8.3",
+    "pdfjs-dist": "^6.3.289",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "linkedom": "^0.18.13",
+    "playwright-core": "^1.63.0",
+    "vitest": "^4.1.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giladra/rbc-case-scraper.git"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
